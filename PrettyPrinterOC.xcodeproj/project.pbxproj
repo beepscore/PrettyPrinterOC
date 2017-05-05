@@ -15,6 +15,7 @@
 		DE60B4871EBD394E00F44EB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE60B4851EBD394E00F44EB5 /* LaunchScreen.storyboard */; };
 		DE60B4921EBD394E00F44EB5 /* PrettyPrinterOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE60B4911EBD394E00F44EB5 /* PrettyPrinterOCTests.m */; };
 		DEA3C1671EBD3E0A007A1B2F /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = DEA3C1661EBD3E0A007A1B2F /* sample.json */; };
+		DEA3C16A1EBD426B007A1B2F /* BSJSONHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA3C1691EBD426B007A1B2F /* BSJSONHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		DE60B4911EBD394E00F44EB5 /* PrettyPrinterOCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrettyPrinterOCTests.m; sourceTree = "<group>"; };
 		DE60B4931EBD394E00F44EB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEA3C1661EBD3E0A007A1B2F /* sample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample.json; sourceTree = "<group>"; };
+		DEA3C1681EBD426B007A1B2F /* BSJSONHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSJSONHelper.h; sourceTree = "<group>"; };
+		DEA3C1691EBD426B007A1B2F /* BSJSONHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSJSONHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				DE60B47A1EBD394E00F44EB5 /* AppDelegate.h */,
 				DE60B47B1EBD394E00F44EB5 /* AppDelegate.m */,
 				DE60B4831EBD394E00F44EB5 /* Assets.xcassets */,
+				DEA3C1681EBD426B007A1B2F /* BSJSONHelper.h */,
+				DEA3C1691EBD426B007A1B2F /* BSJSONHelper.m */,
 				DE60B4881EBD394E00F44EB5 /* Info.plist */,
 				DE60B4851EBD394E00F44EB5 /* LaunchScreen.storyboard */,
 				DE60B4801EBD394E00F44EB5 /* Main.storyboard */,
@@ -227,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEA3C16A1EBD426B007A1B2F /* BSJSONHelper.m in Sources */,
 				DE60B47F1EBD394E00F44EB5 /* ViewController.m in Sources */,
 				DE60B47C1EBD394E00F44EB5 /* AppDelegate.m in Sources */,
 				DE60B4791EBD394E00F44EB5 /* main.m in Sources */,
