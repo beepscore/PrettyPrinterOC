@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE60B4791EBD394E00F44EB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE60B4781EBD394E00F44EB5 /* main.m */; };
+		DE60B47C1EBD394E00F44EB5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE60B47B1EBD394E00F44EB5 /* AppDelegate.m */; };
+		DE60B47F1EBD394E00F44EB5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE60B47E1EBD394E00F44EB5 /* ViewController.m */; };
+		DE60B4821EBD394E00F44EB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE60B4801EBD394E00F44EB5 /* Main.storyboard */; };
+		DE60B4841EBD394E00F44EB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE60B4831EBD394E00F44EB5 /* Assets.xcassets */; };
+		DE60B4871EBD394E00F44EB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE60B4851EBD394E00F44EB5 /* LaunchScreen.storyboard */; };
+		DE60B4921EBD394E00F44EB5 /* PrettyPrinterOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE60B4911EBD394E00F44EB5 /* PrettyPrinterOCTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE60B48E1EBD394E00F44EB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE60B46C1EBD394E00F44EB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE60B4731EBD394E00F44EB5;
+			remoteInfo = PrettyPrinterOC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE60B4741EBD394E00F44EB5 /* PrettyPrinterOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrettyPrinterOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE60B4781EBD394E00F44EB5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE60B47A1EBD394E00F44EB5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE60B47B1EBD394E00F44EB5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE60B47D1EBD394E00F44EB5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DE60B47E1EBD394E00F44EB5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DE60B4811EBD394E00F44EB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE60B4831EBD394E00F44EB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE60B4861EBD394E00F44EB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE60B4881EBD394E00F44EB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE60B48D1EBD394E00F44EB5 /* PrettyPrinterOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrettyPrinterOCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE60B4911EBD394E00F44EB5 /* PrettyPrinterOCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrettyPrinterOCTests.m; sourceTree = "<group>"; };
+		DE60B4931EBD394E00F44EB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE60B4711EBD394E00F44EB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE60B48A1EBD394E00F44EB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE60B46B1EBD394E00F44EB5 = {
+			isa = PBXGroup;
+			children = (
+				DE60B4761EBD394E00F44EB5 /* PrettyPrinterOC */,
+				DE60B4901EBD394E00F44EB5 /* PrettyPrinterOCTests */,
+				DE60B4751EBD394E00F44EB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE60B4751EBD394E00F44EB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE60B4741EBD394E00F44EB5 /* PrettyPrinterOC.app */,
+				DE60B48D1EBD394E00F44EB5 /* PrettyPrinterOCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE60B4761EBD394E00F44EB5 /* PrettyPrinterOC */ = {
+			isa = PBXGroup;
+			children = (
+				DE60B47A1EBD394E00F44EB5 /* AppDelegate.h */,
+				DE60B47B1EBD394E00F44EB5 /* AppDelegate.m */,
+				DE60B47D1EBD394E00F44EB5 /* ViewController.h */,
+				DE60B47E1EBD394E00F44EB5 /* ViewController.m */,
+				DE60B4801EBD394E00F44EB5 /* Main.storyboard */,
+				DE60B4831EBD394E00F44EB5 /* Assets.xcassets */,
+				DE60B4851EBD394E00F44EB5 /* LaunchScreen.storyboard */,
+				DE60B4881EBD394E00F44EB5 /* Info.plist */,
+				DE60B4771EBD394E00F44EB5 /* Supporting Files */,
+			);
+			path = PrettyPrinterOC;
+			sourceTree = "<group>";
+		};
+		DE60B4771EBD394E00F44EB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE60B4781EBD394E00F44EB5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE60B4901EBD394E00F44EB5 /* PrettyPrinterOCTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE60B4911EBD394E00F44EB5 /* PrettyPrinterOCTests.m */,
+				DE60B4931EBD394E00F44EB5 /* Info.plist */,
+			);
+			path = PrettyPrinterOCTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE60B4731EBD394E00F44EB5 /* PrettyPrinterOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE60B4961EBD394E00F44EB5 /* Build configuration list for PBXNativeTarget "PrettyPrinterOC" */;
+			buildPhases = (
+				DE60B4701EBD394E00F44EB5 /* Sources */,
+				DE60B4711EBD394E00F44EB5 /* Frameworks */,
+				DE60B4721EBD394E00F44EB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrettyPrinterOC;
+			productName = PrettyPrinterOC;
+			productReference = DE60B4741EBD394E00F44EB5 /* PrettyPrinterOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE60B48C1EBD394E00F44EB5 /* PrettyPrinterOCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE60B4991EBD394E00F44EB5 /* Build configuration list for PBXNativeTarget "PrettyPrinterOCTests" */;
+			buildPhases = (
+				DE60B4891EBD394E00F44EB5 /* Sources */,
+				DE60B48A1EBD394E00F44EB5 /* Frameworks */,
+				DE60B48B1EBD394E00F44EB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE60B48F1EBD394E00F44EB5 /* PBXTargetDependency */,
+			);
+			name = PrettyPrinterOCTests;
+			productName = PrettyPrinterOCTests;
+			productReference = DE60B48D1EBD394E00F44EB5 /* PrettyPrinterOCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE60B46C1EBD394E00F44EB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Beepscore LLC";
+				TargetAttributes = {
+					DE60B4731EBD394E00F44EB5 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = J2LXK9FK3W;
+						ProvisioningStyle = Automatic;
+					};
+					DE60B48C1EBD394E00F44EB5 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = J2LXK9FK3W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DE60B4731EBD394E00F44EB5;
+					};
+				};
+			};
+			buildConfigurationList = DE60B46F1EBD394E00F44EB5 /* Build configuration list for PBXProject "PrettyPrinterOC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE60B46B1EBD394E00F44EB5;
+			productRefGroup = DE60B4751EBD394E00F44EB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE60B4731EBD394E00F44EB5 /* PrettyPrinterOC */,
+				DE60B48C1EBD394E00F44EB5 /* PrettyPrinterOCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE60B4721EBD394E00F44EB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE60B4871EBD394E00F44EB5 /* LaunchScreen.storyboard in Resources */,
+				DE60B4841EBD394E00F44EB5 /* Assets.xcassets in Resources */,
+				DE60B4821EBD394E00F44EB5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE60B48B1EBD394E00F44EB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE60B4701EBD394E00F44EB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE60B47F1EBD394E00F44EB5 /* ViewController.m in Sources */,
+				DE60B47C1EBD394E00F44EB5 /* AppDelegate.m in Sources */,
+				DE60B4791EBD394E00F44EB5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE60B4891EBD394E00F44EB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE60B4921EBD394E00F44EB5 /* PrettyPrinterOCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE60B48F1EBD394E00F44EB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE60B4731EBD394E00F44EB5 /* PrettyPrinterOC */;
+			targetProxy = DE60B48E1EBD394E00F44EB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE60B4801EBD394E00F44EB5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE60B4811EBD394E00F44EB5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE60B4851EBD394E00F44EB5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE60B4861EBD394E00F44EB5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE60B4941EBD394E00F44EB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE60B4951EBD394E00F44EB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE60B4971EBD394E00F44EB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J2LXK9FK3W;
+				INFOPLIST_FILE = PrettyPrinterOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beepscore.PrettyPrinterOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DE60B4981EBD394E00F44EB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J2LXK9FK3W;
+				INFOPLIST_FILE = PrettyPrinterOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beepscore.PrettyPrinterOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DE60B49A1EBD394E00F44EB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J2LXK9FK3W;
+				INFOPLIST_FILE = PrettyPrinterOCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beepscore.PrettyPrinterOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrettyPrinterOC.app/PrettyPrinterOC";
+			};
+			name = Debug;
+		};
+		DE60B49B1EBD394E00F44EB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J2LXK9FK3W;
+				INFOPLIST_FILE = PrettyPrinterOCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beepscore.PrettyPrinterOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrettyPrinterOC.app/PrettyPrinterOC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE60B46F1EBD394E00F44EB5 /* Build configuration list for PBXProject "PrettyPrinterOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE60B4941EBD394E00F44EB5 /* Debug */,
+				DE60B4951EBD394E00F44EB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE60B4961EBD394E00F44EB5 /* Build configuration list for PBXNativeTarget "PrettyPrinterOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE60B4971EBD394E00F44EB5 /* Debug */,
+				DE60B4981EBD394E00F44EB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DE60B4991EBD394E00F44EB5 /* Build configuration list for PBXNativeTarget "PrettyPrinterOCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE60B49A1EBD394E00F44EB5 /* Debug */,
+				DE60B49B1EBD394E00F44EB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE60B46C1EBD394E00F44EB5 /* Project object */;
+}
