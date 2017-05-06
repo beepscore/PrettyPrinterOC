@@ -10,4 +10,6 @@
 
 @interface BSJSONHelper : NSObject
 
++ (NSArray *)arrayFromJSONData:(NSData *)JSONData;
+
 @end

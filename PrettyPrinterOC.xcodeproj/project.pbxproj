@@ -13,9 +13,10 @@
 		DE60B4821EBD394E00F44EB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE60B4801EBD394E00F44EB5 /* Main.storyboard */; };
 		DE60B4841EBD394E00F44EB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE60B4831EBD394E00F44EB5 /* Assets.xcassets */; };
 		DE60B4871EBD394E00F44EB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE60B4851EBD394E00F44EB5 /* LaunchScreen.storyboard */; };
-		DE60B4921EBD394E00F44EB5 /* PrettyPrinterOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE60B4911EBD394E00F44EB5 /* PrettyPrinterOCTests.m */; };
-		DEA3C1671EBD3E0A007A1B2F /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = DEA3C1661EBD3E0A007A1B2F /* sample.json */; };
+		DE60B4921EBD394E00F44EB5 /* BSJSONHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE60B4911EBD394E00F44EB5 /* BSJSONHelperTests.m */; };
+		DEA3C1671EBD3E0A007A1B2F /* sample_dict.json in Resources */ = {isa = PBXBuildFile; fileRef = DEA3C1661EBD3E0A007A1B2F /* sample_dict.json */; };
 		DEA3C16A1EBD426B007A1B2F /* BSJSONHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA3C1691EBD426B007A1B2F /* BSJSONHelper.m */; };
+		DEA3C16C1EBD4C9C007A1B2F /* sample_array.json in Resources */ = {isa = PBXBuildFile; fileRef = DEA3C16B1EBD4C9C007A1B2F /* sample_array.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,11 +41,12 @@
 		DE60B4861EBD394E00F44EB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE60B4881EBD394E00F44EB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE60B48D1EBD394E00F44EB5 /* PrettyPrinterOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrettyPrinterOCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE60B4911EBD394E00F44EB5 /* PrettyPrinterOCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrettyPrinterOCTests.m; sourceTree = "<group>"; };
+		DE60B4911EBD394E00F44EB5 /* BSJSONHelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSJSONHelperTests.m; sourceTree = "<group>"; };
 		DE60B4931EBD394E00F44EB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DEA3C1661EBD3E0A007A1B2F /* sample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample.json; sourceTree = "<group>"; };
+		DEA3C1661EBD3E0A007A1B2F /* sample_dict.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample_dict.json; sourceTree = "<group>"; };
 		DEA3C1681EBD426B007A1B2F /* BSJSONHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSJSONHelper.h; sourceTree = "<group>"; };
 		DEA3C1691EBD426B007A1B2F /* BSJSONHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSJSONHelper.m; sourceTree = "<group>"; };
+		DEA3C16B1EBD4C9C007A1B2F /* sample_array.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample_array.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +115,7 @@
 		DE60B4901EBD394E00F44EB5 /* PrettyPrinterOCTests */ = {
 			isa = PBXGroup;
 			children = (
-				DE60B4911EBD394E00F44EB5 /* PrettyPrinterOCTests.m */,
+				DE60B4911EBD394E00F44EB5 /* BSJSONHelperTests.m */,
 				DE60B4931EBD394E00F44EB5 /* Info.plist */,
 			);
 			path = PrettyPrinterOCTests;
@@ -122,7 +124,8 @@
 		DEA3C1651EBD3E0A007A1B2F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				DEA3C1661EBD3E0A007A1B2F /* sample.json */,
+				DEA3C16B1EBD4C9C007A1B2F /* sample_array.json */,
+				DEA3C1661EBD3E0A007A1B2F /* sample_dict.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -212,9 +215,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE60B4871EBD394E00F44EB5 /* LaunchScreen.storyboard in Resources */,
-				DEA3C1671EBD3E0A007A1B2F /* sample.json in Resources */,
+				DEA3C1671EBD3E0A007A1B2F /* sample_dict.json in Resources */,
 				DE60B4841EBD394E00F44EB5 /* Assets.xcassets in Resources */,
 				DE60B4821EBD394E00F44EB5 /* Main.storyboard in Resources */,
+				DEA3C16C1EBD4C9C007A1B2F /* sample_array.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,7 +247,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE60B4921EBD394E00F44EB5 /* PrettyPrinterOCTests.m in Sources */,
+				DE60B4921EBD394E00F44EB5 /* BSJSONHelperTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

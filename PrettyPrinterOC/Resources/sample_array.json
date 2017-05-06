@@ -1,0 +1,19 @@
+[
+    {
+        "im:name": {
+            "label": null
+        }
+    },
+
+    {
+        "im:name": {
+            "label": "foo"
+        }
+    },
+
+    {
+        "im:name": {
+            "label": "bar"
+        }
+    }
+]
