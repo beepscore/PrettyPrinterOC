@@ -25,6 +25,11 @@
     NSArray *sampleArray = [BSJSONHelper arrayFromJSONData: data];
 
     XCTAssertEqual([sampleArray count], 3);
+
+    NSString *prettyString = [BSJSONHelper pretty:sampleArray];
+    NSLog(@"\(prettyString)");
+    NSString *expected = @"[\n  {\n    \"im:name\" : {\n      \"label\" : null\n    }\n  },\n  {\n    \"im:name\" : {\n      \"label\" : \"foo\"\n    }\n  },\n  {\n    \"im:name\" : {\n      \"label\" : \"bar\"\n    }\n  }\n]";
+    XCTAssertEqualObjects(prettyString, expected);
 }
 
 - (void)testDictionaryFromJSONDataFile {
@@ -44,9 +49,6 @@
 
     NSDictionary *feed = sampleDictionary[@"feed"];
     XCTAssertEqual([feed  count], 2);
-
-
 }
-
 
 @end
