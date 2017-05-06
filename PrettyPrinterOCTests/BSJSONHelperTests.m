@@ -27,7 +27,7 @@
     XCTAssertEqual([sampleArray count], 3);
 
     NSString *prettyString = [BSJSONHelper pretty:sampleArray];
-    NSLog(@"\(prettyString)");
+    NSLog(@"%@", prettyString);
     NSString *expected = @"[\n  {\n    \"im:name\" : {\n      \"label\" : null\n    }\n  },\n  {\n    \"im:name\" : {\n      \"label\" : \"foo\"\n    }\n  },\n  {\n    \"im:name\" : {\n      \"label\" : \"bar\"\n    }\n  }\n]";
     XCTAssertEqualObjects(prettyString, expected);
 }
@@ -43,7 +43,7 @@
     XCTAssertEqual([sampleDictionary count], 1);
 
     NSString *prettyString = [BSJSONHelper pretty:sampleDictionary];
-    NSLog(@"\(prettyString)");
+    NSLog(@"%@", prettyString);
     NSString *expected = @"{\n  \"feed\" : {\n    \"entry\" : [\n      {\n        \"im:name\" : {\n          \"label\" : null\n        }\n      }\n    ],\n    \"author\" : {\n      \"name\" : {\n        \"label\" : \"iTunes Store\"\n      },\n      \"uri\" : {\n        \"label\" : \"foo\"\n      }\n    }\n  }\n}";
     XCTAssertEqualObjects(prettyString, expected);
 

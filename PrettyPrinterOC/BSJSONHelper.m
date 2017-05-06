@@ -37,7 +37,7 @@
                                                    options: NSJSONWritingPrettyPrinted
                                                      error: &error];
     if (error) {
-        NSLog(@"\(error)");
+        NSLog(@"%@", error);
         return @"";
     }
     NSString *string = [[NSString alloc] initWithData: data
