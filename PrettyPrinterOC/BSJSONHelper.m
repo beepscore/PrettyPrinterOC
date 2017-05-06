@@ -26,4 +26,23 @@
     return jsonDictionary;
 }
 
++ (NSString *)pretty:(id)jsonObject {
+
+    if (![NSJSONSerialization isValidJSONObject: jsonObject]) {
+        return @"";
+    }
+
+    NSError *error = nil;
+    NSData *data = [NSJSONSerialization dataWithJSONObject: jsonObject
+                                                   options: NSJSONWritingPrettyPrinted
+                                                     error: &error];
+    if (error) {
+        NSLog(@"\(error)");
+        return @"";
+    }
+    NSString *string = [[NSString alloc] initWithData: data
+                                             encoding: NSUTF8StringEncoding];
+    return string;
+}
+
 @end

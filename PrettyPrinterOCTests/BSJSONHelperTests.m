@@ -37,10 +37,16 @@
     NSDictionary *sampleDictionary = [BSJSONHelper dictionaryFromJSONData: data];
     XCTAssertEqual([sampleDictionary count], 1);
 
+    NSString *prettyString = [BSJSONHelper pretty:sampleDictionary];
+    NSLog(@"\(prettyString)");
+    NSString *expected = @"{\n  \"feed\" : {\n    \"entry\" : [\n      {\n        \"im:name\" : {\n          \"label\" : null\n        }\n      }\n    ],\n    \"author\" : {\n      \"name\" : {\n        \"label\" : \"iTunes Store\"\n      },\n      \"uri\" : {\n        \"label\" : \"foo\"\n      }\n    }\n  }\n}";
+    XCTAssertEqualObjects(prettyString, expected);
+
     NSDictionary *feed = sampleDictionary[@"feed"];
     XCTAssertEqual([feed  count], 2);
 
-    
+
 }
+
 
 @end
