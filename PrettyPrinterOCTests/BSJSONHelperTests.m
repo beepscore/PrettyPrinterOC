@@ -27,5 +27,20 @@
     XCTAssertEqual([sampleArray count], 3);
 }
 
+- (void)testDictionaryFromJSONDataFile {
+    NSString* filePath = [[NSBundle mainBundle] pathForResource:@"sample_dict"
+                                                         ofType:@"json"];
+    // path to url is a little extra work, in general Apple seems to prefer using url.
+    NSURL *fileURL = [NSURL fileURLWithPath:filePath];
+    NSData *data = [NSData dataWithContentsOfURL: fileURL];
+
+    NSDictionary *sampleDictionary = [BSJSONHelper dictionaryFromJSONData: data];
+    XCTAssertEqual([sampleDictionary count], 1);
+
+    NSDictionary *feed = sampleDictionary[@"feed"];
+    XCTAssertEqual([feed  count], 2);
+
+    
+}
 
 @end

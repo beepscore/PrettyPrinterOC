@@ -18,4 +18,12 @@
     return jsonArray;
 }
 
++ (NSDictionary *)dictionaryFromJSONData:(NSData *)JSONData {
+    // https://www.raywenderlich.com/150322/swift-json-tutorial-2
+    NSDictionary *jsonDictionary = [NSJSONSerialization JSONObjectWithData: JSONData
+                                                         options: kNilOptions
+                                                           error: nil];
+    return jsonDictionary;
+}
+
 @end

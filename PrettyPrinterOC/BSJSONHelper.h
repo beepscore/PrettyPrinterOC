@@ -12,4 +12,6 @@
 
 + (NSArray *)arrayFromJSONData:(NSData *)JSONData;
 
++ (NSDictionary *)dictionaryFromJSONData:(NSData *)JSONData;
+
 @end
